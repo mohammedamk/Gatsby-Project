@@ -45,14 +45,14 @@ body{
     text-align: justify;
 }
 
-.row-1-image {
+.row-1-image >img{
+    margin-top: 40px;
     width: 100%;
 }
 
 
 .row-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+   display: flex;
     width: 80%;
     gap: 10px;
     padding: 20px;
@@ -61,6 +61,7 @@ body{
 }
 
 .row-2-details {
+    width: 50%;
     padding: 10px;
 }
 
@@ -73,6 +74,7 @@ body{
     line-height: 25px;
     text-align: justify;
 }
-.row-2-image {
+.row-2-image >img{
     width: 100%;
+    margin-top: 40px;
 }
